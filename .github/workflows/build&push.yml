@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - id: Build&Push
+    - id: build_push
       name: Build and push Docker images
       uses: docker/build-push-action@v2.1.0
       with:
